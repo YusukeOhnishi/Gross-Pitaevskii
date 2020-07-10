@@ -5,18 +5,17 @@
 ```
 cd one_component
 ```
-config.iniに設定を書き込む。
+config.yamlに設定を書き込む。
 ```
-[DEFAULT]
-space_div_num=(girdの数)
-xi_num=(回復長の長さ)
-delta_t=(微小時間の幅)
-t_N=(ループの数)
-vortex_num=(渦の数)
-R_0=(拘束ポテンシャルの半径)
-V_0=(拘束ポテンシャルの高さ)
-output_wavefunction=(波動関数を出力するループ数)
-filter_bin=(エネルギースペクトルをとる幅)
+space_div_num : (girdの数)
+xi_num : (回復長の長さ)
+delta_t : (微小時間の幅)
+t_N : (ループの数)
+vortex_num : (渦の数)
+R_0 : (拘束ポテンシャルの半径)
+V_0 : (拘束ポテンシャルの高さ)
+output_wavefunction : (波動関数を出力するループ数)
+filter_bin : (エネルギースペクトルをとる幅)
 ```
 execute.shを実行する。
 ```
@@ -27,19 +26,18 @@ bash execute.sh
 ```
 cd one_component
 ```
-config.iniに設定を書き込む。
+config.yamlに設定を書き込む。
 ```
-[DEFAULT]
-space_div_num=(girdの数)
-xi_num=(回復長の長さ)
-delta_t=(微小時間の幅)
-t_N=(ループの数)
-vortex_num=(渦の数)
-R_0=(拘束ポテンシャルの半径)
-V_0=(拘束ポテンシャルの高さ)
-g_12=(成分間相互作用と成分内相互作用の比)
-output_wavefunction=(波動関数を出力するループ数)
-filter_bin=(エネルギースペクトルをとる幅)
+space_div_num : (girdの数)
+xi_num : (回復長の長さ)
+delta_t : (微小時間の幅)
+t_N : (ループの数)
+vortex_num : (渦の数)
+R_0 : (拘束ポテンシャルの半径)
+V_0 : (拘束ポテンシャルの高さ)
+g_12 : (成分間相互作用と成分内相互作用の比)
+output_wavefunction : (波動関数を出力するループ数)
+filter_bin : (エネルギースペクトルをとる幅)
 ```
 execute.shを実行する。
 ```
