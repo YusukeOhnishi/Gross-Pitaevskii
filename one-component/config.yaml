@@ -5,5 +5,6 @@ t_N : 1000
 vortex_num : 120
 R_0 : 28
 V_0 : 16
+Nonlinearity : 21000
 output_wavefunction : 100
 filter_bin : 0.5
