@@ -1,8 +1,7 @@
 # Gross-Pitaevskii
 ## 実行手順
-1成分系の計算をしたい場合はone_component/に、2成分系の計算を行いたい場合はtwo_component/に移動する。また精度によっては32bitの変数で記述したfast_one_component/、fast_two_component/を用いても良い。
+1成分系の計算をしたい場合はone_component/に、2成分系の計算を行いたい場合はtwo_component/に移動する。
 ### 1成分系
-(fast verも同様)
 ```
 cd one_component
 ```
@@ -24,7 +23,6 @@ bash execute.sh
 ```
 
 ### 2成分系
-(fast verも同様)
 ```
 cd one_component
 ```
